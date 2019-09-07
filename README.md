@@ -31,3 +31,7 @@ python manage.py runserver --noreload 0.0.0.0:8000
 python manage.py makemigrations profiles_api
 python manage.py migrate
 ```
+## To create superuser
+```
+python manage.py createsuperuser
+```
